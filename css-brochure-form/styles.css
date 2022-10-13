@@ -11,12 +11,10 @@ label {
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
-  margin-left: 340px;  /* ページ広げると動いちゃう */
   margin-bottom: 5px; /* 入れても変わらない */
 }
 
 input {
-  margin-left: 330px;   /* ページ広げると動いちゃう */
   margin-bottom: 10px;
   border: 1px solid #abafae;
   border-radius: 5px;
@@ -39,7 +37,6 @@ select {
   margin-bottom: 15px;
   border: 1px solid #abafae;
   border-radius: 5px;
-  margin-left: 330px;
 }
 
 .button {
@@ -48,8 +45,13 @@ select {
   font-weight: 500;
   color: white;
   background-color: #ec5c57;
-  margin-left: 60%;
+  margin-left: 75%;
   padding: 7px 22px;
   border-radius: 30px;
   border: none;
+}
+
+main {
+  width: 350px;
+  margin: 0 auto;
 }
