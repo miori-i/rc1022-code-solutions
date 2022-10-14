@@ -1,0 +1,47 @@
+body {
+  background-color: #1796da;
+  color: white;
+  font-family: Lato, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.row {
+  display: flex;
+}
+
+.icon {
+  width: 100%;
+}
+
+.column-full {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+}
+
+.circle {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 13px 80px;
+  padding: 25px;
+  border-radius: 50%;
+  border: none;
+}
+
+.text {
+  text-align: center;
+}
+
+p {
+  font-weight: 500px;
+  color: #ddd;
+}
