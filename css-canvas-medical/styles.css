@@ -1,0 +1,304 @@
+.container-one {
+  max-width: 100%;
+  min-width: 1000px;
+  height: 73px;
+  margin-top: 1px;
+  border-bottom: 2px solid #f5f6f7;
+  position: relative;
+}
+
+#menu-button {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: end;
+}
+
+.uncolored-button {
+  width: 110px;
+  height: 43px;
+  padding: 2px;
+  font-size: 15px;
+  color: #a0a0a0;
+  background-color: white;
+  border: none;
+  font-family: Avenir, sans-serif;
+  border-radius: 5px;
+}
+
+.uncolored-button:hover {
+  color: white;
+  background-color: #a0a0a0;
+}
+
+.colored-button {
+  width: 103px;
+  height: 43px;
+  padding: 2px;
+  font-size: 15px;
+  font-family: Avenir, sans-serif;
+  margin-right: 100px;
+  color: white;
+  background-color: #294363;
+  border: none;
+  border-radius: 5px;
+}
+
+.colored-button:hover {
+  background-color: white;
+  color: #294363;
+}
+
+.header-logo {
+  position: absolute;
+  top: 23px;
+  left: 100px;
+}
+
+.header-logo img {
+  width: 140px;
+}
+
+/* ----------- Container 2 ----------- */
+
+.container-two {
+  max-width: 1040px;
+  min-width: 1000px;
+  margin: 60px auto;
+  position: relative;
+}
+
+.background-img {
+  width: 100%;
+  opacity: 0.7;
+  height: 510px;
+  object-fit: cover;
+}
+
+.colorfilter {
+  background-color: gray;
+  height: 510px;
+}
+
+.heading-on-img {
+  /* abjust the place */
+  position: absolute;
+  top: 50px;
+  left: 70px;
+
+  /* details of button */
+  font-family: "Tiempos Headline", sans-serif;
+  color: white;
+  width: 450px;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.text-on-img {
+  /* adjust the place */
+  position: absolute;
+  top: 170px;
+  left: 70px;
+
+  /* details of button */
+  font-family: Avenir, sans-serif;
+  color: white;
+  line-height: 25px;
+  width: 520px;
+}
+
+.getstarted-button1 {
+  /* 重ね合わせの位置調整 */
+  position: absolute;
+  bottom: 72px;
+  left: 70px;
+
+  /* ボタンの詳細設定 */
+  width: 198px;
+  height: 53px;
+  font-size: 18px;
+  color: white;
+  font-family: Avenir, sans-serif;
+  background-color: #294464;
+  font-weight: lighter;
+  border: none;
+  border-radius: 5px;
+}
+
+.getstarted-button1:hover {
+  transform: scale(1.1);
+}
+
+/* ----------- Container 3 ----------- */
+
+.container-three {
+  max-width: 100%;
+  min-width: 1000px;
+  background-color: #fafafa;
+  border-bottom: 2px solid #f5f5f6;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-one-half {
+  width: calc(100% / 2);
+  margin-bottom: 95px;
+}
+
+.clinic-header {
+  text-align: center;
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: lighter;
+  color: #6e6e6e;
+  margin-top: 53px;
+}
+
+.clinic-text {
+  text-align: center;
+  font-family: Avenir, sans-serif;
+  color: #6e6e6e;
+  width: 500px;
+  margin: 0 auto 70px;
+}
+
+.clinic-name {
+  text-align: center;
+  font-family: Avenir, sans-serif;
+  color: #6e6e6e;
+  font-size: 20px;
+}
+
+/* ----------- Container 4 ----------- */
+
+.container-four {
+  max-width: 100%;
+  min-width: 1000px;
+  position: relative;
+}
+
+.ready {
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: lighter;
+  color: #6e6e6e;
+  margin-left: 70px;
+  margin-top: 45px;
+  font-size: 27px;
+}
+
+.schedule {
+  font-family: Avenir, sans-serif;
+  color: #6e6e6e;
+  margin-left: 70px;
+  font-size: 14px;
+  margin-bottom: 43px;
+}
+
+.holizontal {
+  display: flex;
+  flex-direction: column;
+}
+
+.gray-background {
+  background-color: #525351;
+  height: 415px;
+  width: 100%;
+}
+
+.address {
+  font-family: Avenir, sans-serif;
+  color: #ebebeb;
+  margin-left: 85px;
+  font-size: 15px;
+  line-height: 12px;
+}
+
+.first-line-of-adress {
+  margin-top: 180px;
+}
+
+.company-product {
+  font-family: Avenir, sans-serif;
+  color: #ebebeb;
+  margin-top: 110px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.height-adjust1 {
+  height: 415px;
+}
+
+.buttons1 {
+  font-family: Avenir, sans-serif;
+  color: #ebebeb;
+  background-color: #525351;
+  border: none;
+  text-align: left;
+  margin-bottom: 17px;
+  margin-left: 10px;
+  font-size: 19px;
+  padding: 0;
+}
+
+.buttons1:hover {
+  color: #a0a0a0;
+}
+
+.height-adjust2 {
+  height: 127px;
+  width: 100%;
+  margin-left: 50px;
+}
+
+.buttons2 {
+  font-family: Avenir, sans-serif;
+  color: #6e6e6e;
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 53px;
+  margin-left: 30px;
+}
+
+.buttons2:hover {
+  color: black;
+}
+
+.white-logo {
+  position: absolute;
+  top: 260px;
+  left: 85px;
+}
+
+.white-logo img {
+  width: 140px;
+}
+
+.getstarted-button2 {
+  /* adjust the place */
+  position: absolute;
+  top: 40px;
+  right: 90px;
+
+  /* details of botton */
+  width: 198px;
+  height: 53px;
+  font-size: 18px;
+  color: white;
+  font-family: Avenir, sans-serif;
+  background-color: #294464;
+  font-weight: lighter;
+  border: none;
+  border-radius: 5px;
+}
+
+.getstarted-button2:hover {
+  transform: scale(1.1);
+}
