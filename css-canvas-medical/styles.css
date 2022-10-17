@@ -27,8 +27,7 @@
 }
 
 .uncolored-button:hover {
-  color: white;
-  background-color: #a0a0a0;
+  color: #0b4265;
 }
 
 .colored-button {
@@ -39,14 +38,14 @@
   font-family: Avenir, sans-serif;
   margin-right: 100px;
   color: white;
-  background-color: #294363;
+  background-color: #0b4265;
   border: none;
   border-radius: 5px;
 }
 
 .colored-button:hover {
   background-color: white;
-  color: #294363;
+  color: #0b4265;
 }
 
 .header-logo {
@@ -59,7 +58,7 @@
   width: 140px;
 }
 
-/* ----------- Container 2 ----------- */
+/* ------ Container 2 for index.html--------- */
 
 .container-two {
   max-width: 1040px;
@@ -86,7 +85,7 @@
   top: 50px;
   left: 70px;
 
-  /* details of button */
+  /* details of heading */
   font-family: "Tiempos Headline", sans-serif;
   color: white;
   width: 450px;
@@ -95,12 +94,12 @@
 }
 
 .text-on-img {
-  /* adjust the place */
+  /* adjust the position */
   position: absolute;
   top: 170px;
   left: 70px;
 
-  /* details of button */
+  /* details of text */
   font-family: Avenir, sans-serif;
   color: white;
   line-height: 25px;
@@ -108,12 +107,12 @@
 }
 
 .getstarted-button1 {
-  /* 重ね合わせの位置調整 */
+  /* adjust the position */
   position: absolute;
   bottom: 72px;
   left: 70px;
 
-  /* ボタンの詳細設定 */
+  /* details of button */
   width: 198px;
   height: 53px;
   font-size: 18px;
@@ -129,9 +128,67 @@
   transform: scale(1.1);
 }
 
-/* ----------- Container 3 ----------- */
+/* ------ Container 2 for product.html--------- */
 
-.container-three {
+.product-heading-on-img {
+  /* adjust the position */
+  position: absolute;
+  top: 130px;
+  left: 60px;
+
+  /* details of heading */
+  font-family: "Tiempos Headline", sans-serif;
+  color: white;
+  width: 500px;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.product-text-on-img {
+  /* adjust the position */
+  position: absolute;
+  top: 250px;
+  left: 60px;
+
+  /* details of text */
+  font-family: Avenir, sans-serif;
+  color: white;
+  line-height: 25px;
+  width: 520px;
+}
+
+/* ------ Container 2 for implementation.html--------- */
+
+.implementation-heading-on-img {
+  /* adjust the position */
+  position: absolute;
+  top: 80px;
+  left: 60px;
+
+  /* details of heading */
+  font-family: "Tiempos Headline", sans-serif;
+  color: white;
+  width: 500px;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.implementation-text-on-img {
+  /* adjust the position */
+  position: absolute;
+  top: 250px;
+  left: 60px;
+
+  /* details of text */
+  font-family: Avenir, sans-serif;
+  color: white;
+  line-height: 25px;
+  width: 517px;
+}
+
+/* ------ Container 3 for index.html------- */
+
+.container-three-index {
   max-width: 100%;
   min-width: 1000px;
   background-color: #fafafa;
@@ -148,6 +205,9 @@
 
 .column-one-half {
   width: calc(100% / 2);
+}
+
+.margin-adjust2 {
   margin-bottom: 95px;
 }
 
@@ -172,6 +232,101 @@
   font-family: Avenir, sans-serif;
   color: #6e6e6e;
   font-size: 20px;
+}
+
+/* ------ Container 3 for product.html------- */
+
+.container-three-product {
+  max-width: 100%;
+  min-width: 1000px;
+  border-bottom: 2px solid #f5f5f6;
+  line-height: 24px;
+}
+
+.cream-background {
+  background-color: #fafafa;
+}
+
+.small-header-product {
+  color: #50514f;
+  font-family: "Tiempos Headline", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 35px;
+}
+
+.text-product {
+  color: #50514f;
+  font-family: Avenir, sans-serif;
+  font-size: 16px;
+}
+
+.italic-text-product {
+  color: #50514f;
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.learn-charting {
+  color: #0b4265;
+}
+
+.margin-adjust {
+  padding: 70px 91px 45px;
+}
+
+.product-image1,
+.product-image3 {
+  width: 100%;
+  margin: 7px;
+  padding: 80px 60px 60px;
+}
+
+.product-image2 {
+  width: 100%;
+  padding: 115px 70px 0 0;
+}
+
+/* ------ Container 3 for implementation.html------- */
+
+.container-three-implementation {
+  max-width: 100%;
+  min-width: 1000px;
+  padding: 0 0 130px;
+  border-bottom: 2px solid #f5f5f6;
+}
+
+.implementation-header {
+  color: #50514f;
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: lighter;
+  font-size: 32px;
+  text-align: center;
+  margin: 30px;
+}
+
+.margin-adjust3 {
+  margin: 0 315px;
+}
+
+.list-number {
+  color: #50514f;
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.list-header {
+  color: #50514f;
+  font-family: Avenir, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.list-text {
+  color: #50514f;
+  font-family: Avenir, sans-serif;
 }
 
 /* ----------- Container 4 ----------- */
@@ -218,7 +373,7 @@
   line-height: 12px;
 }
 
-.first-line-of-adress {
+.first-line-of-address {
   margin-top: 180px;
 }
 
@@ -282,12 +437,12 @@
 }
 
 .getstarted-button2 {
-  /* adjust the place */
+  /* adjust the position */
   position: absolute;
   top: 40px;
   right: 90px;
 
-  /* details of botton */
+  /* details of button */
   width: 198px;
   height: 53px;
   font-size: 18px;

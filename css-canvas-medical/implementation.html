@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Challenge - Canvas Medical</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- 1st container: header [image | button x 4] -->
+  <div class="container-one">
+    <!-- button x 4 -->
+    <div id="menu-button">
+      <button type="button" onclick="location.href='product.html'" class="uncolored-button">Product</button>
+      <button type="button" onclick="location.href='implementation.html'"
+        class="uncolored-button">Implementation</button>
+      <button type="button" onclick="" class="uncolored-button">About Us</button>
+      <button type="button" onclick="" class="uncolored-button">Blog</button>
+      <button type="button" onclick="" class="colored-button">Contact Us</button>
+    </div>
+    <!-- image of the logo -->
+    <div class="header-logo">
+      <img src="images/logo-blue.svg" alt="a picture of blue logo" onclick="location.href='index.html'">
+    </div>
+  </div>
+
+  <!-- 2nd container: image on the background with some text -->
+  <div class="container-two">
+    <div class="colorfilter">
+      <img class="background-img" src="images/implementation/implementation-header.jpg" alt="a picture of implementation-header">
+    </div>
+    <h1 class="implementation-heading-on-img">Canvas will be the second best investment you've ever made, guaranteed.</h1>
+    <p class="implementation-text-on-img">Becoming a physician will endure as your all-time best investment decision, and on behalf of your community, we're grateful for it.
+      When you choose to invest in Canvas, we'll ensure you list Canvas as the second best investment you've ever made for your practice, guaranteed.
+      Contact us when you're ready to discuss the details.
+    </p>
+  </div>
+
+
+  <!-- 3rd container: seven rows -->
+  <div class="container-three-implementation">
+    <!-- row 1: header-->
+    <div class="row">
+      <div class="column-full implementation-header">
+        <p>Calculate an estimate of your ROI with Canvas</p>
+      </div>
+    </div>
+    <!-- row2 -->
+    <div class="row">
+      <div class="column-full margin-adjust3">
+        <p class="list-header"><span class="list-number">1. </span><span class="list-header"> Making the Decision To Switch</span></p>
+        <p class="list-text">You should only move forward with Canvas if and when you have determined that we far outperform other vendors and offer an unmatched return on investment.
+          Our goal is to give you as much information as possible to make this determination one way or the other. We will provide access to a sandbox of the Canvas application for
+          you to get a feel for the platform as well as references to current customers to talk about their experience.
+        </p>
+      </div>
+    </div>
+    <!-- row3 -->
+    <div class="row">
+      <div class="column-full margin-adjust3">
+        <p class="list-header"><span class="list-number">2. </span><span class="list-header"> Interfaces and Community Integration</span></p>
+        <p class="list-text">Canvas is meant to integrate with your existing interfaces and community resources. At a minimum, this means porting over your fax number,
+          enrolling your payers with our clearinghouse, and getting bidirectional lab feeds running. We'll also load your preferred specialists and imaging centers into
+          Canvas so that sending referrals and closing loops is seamless. Finally, if interfaces with health information exchanges or other information technology vendors are important,
+          we will work with you to determine what we can deliver and when.
+        </p>
+      </div>
+    </div>
+    <!-- row4 -->
+    <div class="row">
+      <div class="column-full margin-adjust3">
+        <p class="list-header"><span class="list-number">3. </span><span class="list-header"> Data Migration</span></p>
+        <p class="list-text">The first thing we will do is gain access to a full backup ot your current data, which we have executed successfully with both remotely hosted and on-premise EMR databases.
+          Then our work begins to import into Canvas. Patient demographics and information like medications, problems, and allergies is relatively straightforward.
+          While importing clinical notes and documents is more challenging, our team has been able to do this at a high level of fidelity with a wide variety of EMRs.
+        </p>
+      </div>
+    </div>
+    <!-- row5 -->
+    <div class="row">
+      <div class="column-full margin-adjust3">
+        <p class="list-header"><span class="list-number">4. </span><span class="list-header"> Training and Site Visit</span></p>
+        <p class="list-text">We will work with you to configure Canvas properly, including clinical content, charge schedules, and much more. Role-based trainings will be done a few weeks prior to
+          go-live to familiarize relevant team members with clinical, practice management, and billing workflows. Either before or during go-live, one of our team
+          can visit your practice to work side-by-side with you on implementation and training.
+        </p>
+      </div>
+    </div>
+    <!-- row6 -->
+    <div class="row">
+      <div class="column-full margin-adjust3">
+        <p class="list-header"><span class="list-number">5. </span><span class="list-header"> Go-Live and Tuning</span></p>
+        <p class="list-text">Go-live is when you start using Canvas with real patients in your practice. We will be with you, either in-person or remotely depending on your preference,
+          to make sure everything goes smoothly. There is always fine tuning to do once you have a handful of encounters in Canvas under your belt: changing clinical microtemplates,
+          setting up new automations, modifying practice management settings, and more. We are here to help with it all.
+        </p>
+      </div>
+    </div>
+    <!-- row7 -->
+    <div class="row">
+      <div class="column-full margin-adjust3">
+        <p class="list-header"><span class="list-number">6. </span><span class="list-header"> Sustained Performance</span></p>
+        <p class="list-text">All EMR contracts should contain assurances against broken promises and provide support over the long term. Our Performance Warranty means that if we are not
+          meeting expectations, you can terminate the agreement and receive all payments back. (We do not expect this to happen). For our Standard plans, we also offer a MIPS
+          guarantee: if you receive a negative adjustment, we will cover it. And for everyone, we provide unlimited 24/7 support at no charge. We expect this to be a
+          long, productive partnership for us both.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 4th container: three rows-->
+  <div class="container-four">
+    <!-- row 1 -->
+    <div class="row">
+      <div class="column-full">
+        <h1 class="ready">Ready to learn more?</h1>
+        <p class="schedule">Schedule a private meeting now</p>
+      </div>
+    </div>
+    <!-- row 2 -->
+    <div class="row gray-background">
+      <div class="column-one-half margin-adjust2">
+        <p class="address first-line-of-address">2307 Irving Street, Suite 228</p>
+        <p class="address">San Francisco CA 94122</p>
+        <p class="address">(800)370-1416</p>
+        <p class="address">info@canvasmedical.com</p>
+      </div>
+      <div class="column-one-half margin-adjust2">
+        <div class="row height-adjust1">
+          <div class="column-one-half">
+            <p class="company-product">COMPANY</p>
+            <div class="holizontal">
+              <button type="button" onclick="" class="buttons1">About Us</button>
+              <button type="button" onclick="" class="buttons1">Blog</button>
+            </div>
+          </div>
+          <div class="column-one-half">
+            <p class="company-product">PRODUCT</p>
+            <div class="holizontal">
+              <button type="button" onclick="location.href='product.html'" class="buttons1">Product</button>
+              <button type="button" onclick="location.href='implementation.html'" class="buttons1">Implementation</button>
+              <button type="button" onclick="" class="buttons1">For Health Plans</button>
+              <button type="button" onclick="" class="buttons1">Security</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- row 3 -->
+    <div class="row height-adjust2">
+      <div class="column-full">
+        <button type="button" onclick="" class="buttons2">Privacy &amp; Term</button>
+        <button type="button" onclick="" class="buttons2">Contact Us</button>
+      </div>
+      <div class="white-logo">
+        <img src="images/logo-white.png" alt="a picture of white logo" onclick="location.href='index.html'">
+      </div>
+      <button type="button" onclick="" class="getstarted-button2">Get Started</button>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
