@@ -9,29 +9,25 @@
 
 .nav {
   list-style: none;
+  float: right;
+  justify-content: center;
+  height: 73px;
+  margin: 29px 80px 0 0;
 }
 
 .nav li {
-  width: 100px;
+  width: 115px;
   text-align: center;
-}
-
-/* #menu-button {
-  display: flex;
-  height: 70px;
-  align-items: center;
-  justify-content: end;
+  float: left;
 }
 
 .uncolored-button {
-  width: 110px;
-  height: 43px;
-  padding: 2px;
-  font-size: 15px;
+  text-decoration: none;
   color: #a0a0a0;
+  font-family: Avenir, sans-serif;
+  font-size: 15px;
   background-color: white;
   border: none;
-  font-family: Avenir, sans-serif;
   border-radius: 5px;
 }
 
@@ -40,22 +36,22 @@
 }
 
 .colored-button {
-  width: 103px;
-  height: 43px;
-  padding: 2px;
+  text-decoration: none;
   font-size: 15px;
   font-family: Avenir, sans-serif;
-  margin-right: 100px;
   color: white;
   background-color: #0b4265;
   border: none;
   border-radius: 5px;
+  width: 103px;
+  height: 43px;
+  padding: 11px 17px;
 }
 
 .colored-button:hover {
   background-color: white;
   color: #0b4265;
-} */
+}
 
 .header-logo {
   position: absolute;
@@ -89,7 +85,7 @@
 }
 
 .heading-on-img {
-  /* abjust the place */
+  /* adjust the place */
   position: absolute;
   top: 50px;
   left: 70px;
@@ -394,17 +390,26 @@
   margin-left: 10px;
 }
 
+.nav2 {
+  list-style: none;
+  padding: 2px;
+}
+
+.nav2 li {
+  margin-bottom: 20px;
+}
+
 .height-adjust1 {
   height: 415px;
 }
 
 .buttons1 {
+  text-decoration: none;
   font-family: Avenir, sans-serif;
   color: #ebebeb;
   background-color: #525351;
   border: none;
   text-align: left;
-  margin-bottom: 17px;
   margin-left: 10px;
   font-size: 19px;
   padding: 0;
@@ -420,14 +425,24 @@
   margin-left: 50px;
 }
 
+.nav3 {
+  list-style: none;
+  margin-top: 52px;
+  margin-left: -28px;
+}
+
+.nav3 li {
+  float: left;
+}
+
 .buttons2 {
+  text-decoration: none;
   font-family: Avenir, sans-serif;
   color: #6e6e6e;
   background-color: white;
   border: none;
   font-size: 16px;
   font-weight: bold;
-  margin-top: 53px;
   margin-left: 30px;
 }
 
