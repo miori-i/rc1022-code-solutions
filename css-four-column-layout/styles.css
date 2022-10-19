@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f8f8fa;
+  font-family: Barlow, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  max-width: 100%;
+  text-align: center;
+  margin: 0 60px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column-one-quarter {
+  /* width: calc (100% / 4); ← this didn't work somehow :( */
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+img.screens {
+  width: 250px;
+}
+
+img.icons {
+  width: 57px;
+  margin: 0 107px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 13px;
+}
