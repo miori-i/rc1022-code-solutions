@@ -40,8 +40,7 @@ function isOldEnoughToDrive(person) {
 
 // 6. isOldEnoughToDrinkAndDrive
 function isOldEnoughToDrinkAndDrive(person) {
-  var legal = (person.age >= 21) && (person.age >= 16);
-  return legal;
+  return false;
 }
 
 // 7. categorize Acidity
