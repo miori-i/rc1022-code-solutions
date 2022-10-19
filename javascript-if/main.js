@@ -52,7 +52,7 @@ function categorizeAcidity(pH) {
   } else if ((pH < 7) && (pH >= 0)) {
     result = 'acid';
     return result;
-  } else if ((pH > 7) && (pH < 15)) {
+  } else if ((pH > 7) && (pH <= 14)) {
     result = 'base';
     return result;
   } else {
