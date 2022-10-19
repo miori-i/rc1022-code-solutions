@@ -46,7 +46,7 @@ var css = {
 
 library.push(js);
 library.unshift(css);
-library.splice(0, 1);
+library.splice(1, 1); // Remove 1 element(first argument) at index 1(second argument)
 console.log('library:', library);
 
 // String Methods
