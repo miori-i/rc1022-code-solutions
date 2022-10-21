@@ -1,12 +1,12 @@
 /* exported toObject */
 
 function toObject(keyValuePair) {
-  var Object = {};
+  var object = {};
   for (var i = 0; i < keyValuePair.length; i++) {
     var string = keyValuePair[0];
     var value = keyValuePair[1];
-    Object[string] = value;
+    object[string] = value;
 
   }
-  return Object;
+  return object;
 }
