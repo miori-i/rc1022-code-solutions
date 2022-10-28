@@ -23,15 +23,10 @@ var booksInJson = JSON.stringify(books);
 console.log('JSON string of books:', booksInJson);
 console.log('typeof booksInJson:', typeof booksInJson);
 
-var student = {
-  id: '1234',
-  name: 'Miori'
-};
-
-var studentInJson = JSON.stringify(student);
+var studentInJson = '{ "id": "1234", "name": "Miori" }';
 console.log('JSON string of student:', studentInJson);
 console.log('typeof studentInJson:', typeof studentInJson);
 
-student = JSON.parse(studentInJson);
+var student = JSON.parse(studentInJson);
 console.log('student:', student);
 console.log('typeof student:', typeof student);
