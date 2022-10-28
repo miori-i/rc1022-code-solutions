@@ -6,9 +6,9 @@ if (previousTodosJSON !== null) {
   todos = JSON.parse(previousTodosJSON);
 }
 
-window.addEventListener('beforeunload', BeforeUnloadEvent);
+window.addEventListener('beforeunload', beforeUnloadEvent);
 
-function BeforeUnloadEvent() {
+function beforeUnloadEvent() {
 
   var todosJASON = JSON.stringify(todos);
   localStorage.setItem('javascript-local-storage', todosJASON);
