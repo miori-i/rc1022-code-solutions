@@ -7,9 +7,9 @@ function pick(source, keys) {
     if (keys.includes(key)) {
       newObject[key] = source[key];
     }
+    if (source[key] === undefined) {
+      delete newObject[key];
+    }
   }
   return newObject;
 }
-
-// AssertionError: expected { foo: null, bar: 0, baz: undefined }
-// to deeply equal { foo: null, bar: 0 }
