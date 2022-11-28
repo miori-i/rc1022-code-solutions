@@ -6,18 +6,6 @@
   font-family: "Courier New", Courier, monospace;
 }
 
-/* .before {
-  color: black;
-}
-
-.before.right {
-  color: #1dce1e;
-}
-
-.before.right.wrong {
-  color: #f81305;
-} */
-
 .row .text span.add-green {
   color: #1dce1e;
 }
@@ -26,22 +14,21 @@
   color: #f81305;
 }
 
-/* .row .text span {
+/* -- show a bar under the char that has active -- */
+.row .text span {
   position: relative;
-} */
+}
 
-/* activeがついてる文字の下に表示 */
-
-/* .row .text span.active::before {
+.row .text span.active::before {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0;
   height: 2px;
   width: 100%;
-  background: black;
-} */
+  background-color: black;
+}
 
-.active {
-  border-bottom: black;
+.row .text span.add-red.active::before {
+  background-color: #f81305;
 }

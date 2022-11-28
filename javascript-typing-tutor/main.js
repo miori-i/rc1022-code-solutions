@@ -1,15 +1,26 @@
-var $characters = document.querySelectorAll('span');
-var charArray = Array.from($characters);
+var $eachCharacters = document.querySelectorAll('span');
+var charArray = Array.from($eachCharacters);
 
 document.addEventListener('keydown', function (event) {
 
-  if (event.key === charArray[0].textContent) { // typed correct char
-    charArray[0].className = 'add-green';
-    // $characters.slice(i - 1, i).className = 'right wrong';
+  // if charArray[0] exists
+  if (charArray[0]) {
 
-  } else if (event.key !== charArray[0].textContent) { // typed wrong char
-    charArray[0].className = 'wrong';
+    // if the pressed key is the same with the char at index 0 in charArray
+    if (event.key === charArray[0].textContent) { // typed correct char
+      charArray[0].className = 'add-green';
 
+      // if charArray[1] exists
+      if (charArray[1]) {
+        charArray[1].className = 'active';
+      }
+
+      // Remove the char at index 0 from charArray
+      charArray.shift();
+
+    } else {
+      // if the pressed key is not the same with the char at index 0 in charArray
+      charArray[0].className = 'add-red active';
+    }
   }
-
 });
