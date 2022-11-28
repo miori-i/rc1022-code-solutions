@@ -1,0 +1,34 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.row .text span.add-green {
+  color: #1dce1e;
+}
+
+.row .text span.add-red {
+  color: #f81305;
+}
+
+/* -- show a bar under the char that has active -- */
+.row .text span {
+  position: relative;
+}
+
+.row .text span.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+}
+
+.row .text span.add-red.active::before {
+  background-color: #f81305;
+}
