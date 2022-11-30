@@ -1,6 +1,9 @@
 /* exported titleCase */
 
 function titleCase(string) {
-  var newStr = string.charAt(0).toUpperCase() + string.slice(1);
-  return newStr;
+
+  var lowerString = string.toLowerCase();
+  var newString = lowerString.replace(/\b[a-z]/g, char => char.toUpperCase());
+
+  return newString;
 }
