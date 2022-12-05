@@ -27,7 +27,13 @@ app.get('/api/grades', (req, res) => {
   for (const property in grades) {
     newArray.push(grades[property]);
   }
-  res.json(newArray);
+
+  res.send(newArray);
+
+  // -- Both res.send() or res.json() is fine.
+  // -- Using res.json() requires to have the status method to set the status code:
+  // res.status(200).json(newArray);
+
 });
 
 app.listen(3000, () => {
