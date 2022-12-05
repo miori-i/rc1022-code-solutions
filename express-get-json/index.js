@@ -30,7 +30,7 @@ app.get('/api/grades', (req, res) => {
 
   res.send(newArray);
 
-  // -- Both res.send() or res.json() is fine.
+  // -- Either res.send() or res.json() is fine.
   // -- Using res.json() requires to have the status method to set the status code:
   // res.status(200).json(newArray);
 
