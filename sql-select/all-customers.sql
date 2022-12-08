@@ -1,10 +1,2 @@
-select "customerId",
-       "storeId",
-       "firstName",
-       "lastName",
-       "email",
-       "addressId",
-       "isActive",
-       "createdAt",
-       "updatedAt"
-  from "customers"
+select *
+  from "customers";

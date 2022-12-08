@@ -1,11 +1,3 @@
-select "customerId",
-       "storeId",
-       "firstName",
-       "lastName",
-       "email",
-       "addressId",
-       "isActive",
-       "createdAt",
-       "updatedAt"
+select *
   from "customers"
- where "isActive" = 'false'
+ where "isActive" = false;

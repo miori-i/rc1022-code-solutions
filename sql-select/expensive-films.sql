@@ -1,17 +1,4 @@
-select "filmId",
-       "title",
-       "description",
-       "releaseYear",
-       "languageId",
-       "originalLanguageId",
-       "rentalDuration",
-       "rentalRate",
-       "length",
-       "replacementCost",
-       "rating",
-       "updatedAt",
-       "specialFeatures",
-       "fulltext"
+select *
   from "films"
-  order by "replacementCost" desc
-  limit 10;
+ order by "replacementCost" desc
+ limit 10;

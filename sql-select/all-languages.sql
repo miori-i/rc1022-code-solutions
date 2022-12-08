@@ -1,4 +1,2 @@
-select "languageId",
-       "name",
-       "updatedAt"
-  from "languages"
+select *
+  from "languages";
