@@ -26,4 +26,4 @@ console.log('startWithE:', startWithE);
 
 // haveD - all names that include a 'D' or a 'd'
 const haveD = names.filter(name => name.includes('d') || name.includes('D'));
-console.log(haveD);
+console.log('haveD:', haveD);
