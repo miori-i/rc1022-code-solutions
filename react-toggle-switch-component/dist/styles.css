@@ -1,0 +1,50 @@
+.switch-wrapper {
+  margin: 30px 40px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 30px;
+  max-width: 100%;
+  background: #e6e6e8;
+  border-radius: 100em;
+  transition: 0.2s ease-out;
+}
+
+.switch::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  width: 50%;
+  height: 80%;
+  background: white;
+  border-radius: 100%;
+  box-shadow: 0 9px 28px -6px rgb(0 0 0 / 50%);
+  transition: all 0.2s;
+}
+
+.switch.on {
+  background: #6aa74f;
+  box-shadow: unset;
+}
+
+.switch.on::before {
+  margin-left: 40%;
+  box-shadow: 0 9px 28px -6px rgb(0 0 0 / 50%);
+}
+
+.switch:hover {
+  cursor: pointer;
+}
+
+span {
+  position: absolute;
+  left: 130%;
+  top: 20%;
+  font-family: sans-serif;
+}
