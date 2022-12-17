@@ -1,0 +1,93 @@
+.icon-wrapper {
+  position: relative;
+}
+
+.fa-bars {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+.fa-bars:hover {
+  cursor: pointer;
+}
+
+.menu {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: -80%;
+  z-index: 99;
+  overflow-y: scroll;
+  transition: all 0.5s ease-out;
+  width: 80%;
+  height: 100%;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.menu.is-active {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+  width: 30%;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.item-menu {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: #000;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+.item-menu:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.item-about,
+.item-get-started,
+.item-sign-up {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #000;
+  display: block;
+  padding: 7px;
+  padding-left: 20px;
+}
+
+.item-about:hover,
+.item-get-started:hover,
+.item-sign-up:hover {
+  cursor: pointer;
+  background-color: rgb(227 227 227);
+}
+
+.menu-background {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s all ease-in-out;
+  width: 100%;
+  height: 100%;
+  background-color: #707070;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+}
+
+.menu-background.is-active {
+  visibility: visible;
+  opacity: 1;
+}
