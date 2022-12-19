@@ -1,0 +1,41 @@
+.wrapper {
+  margin: 30px 20px;
+}
+
+label {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+input {
+  margin-top: 7px;
+  border: 2px solid black;
+}
+
+.fa-xmark {
+  color: #ce2b28;
+  font-size: 1.5em;
+  position: absolute;
+  left: 165px;
+  top: 5px;
+}
+
+.fa-check {
+  color: #6ba74f;
+  font-size: 1.5em;
+  position: absolute;
+  left: 165px;
+  top: 5px;
+}
+
+.error-message {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 13px;
+  color: #ce2b28;
+  position: absolute;
+  left: 0;
+  top: 23px;
+}
