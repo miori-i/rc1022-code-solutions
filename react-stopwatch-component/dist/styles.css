@@ -1,0 +1,33 @@
+.wrapper {
+  position: relative;
+}
+
+.time {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 2px solid black;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.time:hover {
+  cursor: pointer;
+}
+
+i {
+  font-size: 1.5em;
+  position: absolute;
+  left: 65px;
+  top: 112px;
+}
+
+i:hover {
+  cursor: pointer;
+}
