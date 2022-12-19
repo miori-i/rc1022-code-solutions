@@ -39,6 +39,7 @@ export class Accordion extends React.Component {
   }
 
   render() {
+
     const htmlDescriptionClass = this.state.htmlIsOpened ? 'description-html fade-in' : 'description-html';
     const cssDescriptionClass = this.state.cssIsOpened ? 'description-css fade-in' : 'description-css';
     const jsDescriptionClass = this.state.jsIsOpened ? 'description-js fade-in' : 'description-js';
