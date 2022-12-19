@@ -8,7 +8,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
     console.log(data);
   })
   .catch(error => {
-    console.error(error.message);
+    console.error('Fetch failed!', error);
   });
 
 // use fetch to send a GET request to the PokéAPI to retrieve your favorite pokémon
@@ -21,5 +21,5 @@ fetch('https://pokeapi.co/api/v2/pokemon/1')
     console.log(data);
   })
   .catch(error => {
-    console.error(error.message);
+    console.error('Fetch failed!', error);
   });
