@@ -1,0 +1,32 @@
+---- User can sign up. ----
+1. In app.jsx file, there is renderPage() function that renders different views depends on a condition and if variable 'path' is strictly equal to the 'sign-up', it renders the imported <Auth /> component to show the sign up view.
+
+2. In auth.jsx file, in render() function of AuthPage class, it renders imported <AuthForm /> component with props to get the user's username and password.
+
+3. In index.js file, call the post method on the app object on the root /api/auth/sign-up with the arguments(req, res, next).
+   Pass the password through the hash method on argon2 and insert the username and password into the database by querying the db object and assigned a userId.
+   Send the result over as json object.
+
+
+---- User can sign in. ----
+1. In app.jsx file, there is renderPage() function that renders different views depends on a condition and if variable 'path' is strictly equal to the 'sign-in', it renders the imported <Auth /> component to show the sign in view.
+
+2. In auth.jsx file, in render() function of AuthPage class, it renders imported <AuthForm /> component with props to get the user's username and password.
+
+3. In index.js file, call the post method on the app object on the root /api/auth/sign-in with the arguments(req, res, next).
+   Select userId and hashedPassword from the database where username is equal to the inputted username, and query the database.
+   Pass the hashedPassword and password as arguments of verify method on argon2 and verify by comparing inputted password and the hashed password.
+   Create a token for payload by using the TOKEN_SECRET of the env property of the process object.
+   Send the result over as json object.
+
+
+---- User can stay signed in (even if they refresh the page). ----
+1. In index.js file, when user sign in successfully, a token is created and .
+
+2. In app.jsx file, in componentDidMount() function, window.location.hash hold the current location and set it to the status of route.
+   So that, it stay signed in even user refreshes the page.
+
+
+---- User can sign out. ----
+1. In app.jsx file, when the 'Sign out' button in imported <Navbar /> component, it initiate the handleSignOut() function.
+   In the function, it removed 'react-context-jwt' form localStorage and set status of user to null.
