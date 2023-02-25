@@ -1,0 +1,51 @@
+.wrapper {
+  margin-top: 40px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.html,
+.css,
+.javascript {
+  background-color: lightgray;
+  border: 1px solid black;
+  width: 350px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* when element is hidden */
+.description-html,
+.description-css,
+.description-js {
+  background-color: white;
+  width: 350px;
+  margin: 0 auto;
+  height: 0;
+  padding: 0;
+  border: none;
+
+  /* hidden */
+  opacity: 0;
+  visibility: hidden;
+  transition: 100ms;
+}
+
+/* when element fades in */
+.description-html.fade-in,
+.description-css.fade-in,
+.description-js.fade-in {
+  height: auto;
+  padding: 10px;
+  border: 1px solid black;
+
+  /* fade in */
+  opacity: 1;
+  visibility: visible;
+}
